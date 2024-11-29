@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ricardo Delgadillo García">
+    <title>Contacto - Serviplus</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <img src="images/logotipo.jpg" alt="Serviplus Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Acerca de nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Nuestros Clientes</a></li>
+                <li><a href="contacto.html" class="active">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <section class="contact-form">
+            <h2>Contáctenos</h2>
+            <p>No dude en enviarnos un mensaje.</p>
+            <form action="mailto:ricardo.delgadillo@ucc.edu.ni" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <div class="buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Restablecer</button>
+                </div>
+            </form>
+        </section>
+
+        <aside class="contact-info">
+            <h3>Serviplus S.A</h3>
+            <p>Tel: (505) 2266-6578 Cel: 89243728</p>
+            <p>Email: <a href="#">serviplus@yahoo.com</a></p>
+            <p>Web: <a href="http://www.ucc.edu.ni">www.serviplus.com</a></p>
+            <p>Bolonia, Oficinas Aval Card (Citi) 1 Cuadra al oeste Managua, Nicaragua.</p>
+            <p>Gerente General<br>Francella Murillo Moncada</p>
+            <h3>Nuestra Ubicación</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.8369977011293!2d-86.25344047408353!3d12.123302982906724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7155198b2dd9e5%3A0xbdee0813e104d70b!2sCampus%20UCC!5e0!3m2!1ses!2sni!4v1731686341370!5m2!1ses!2sni" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+        </aside>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Copyright &copy; 2024 Serviplus S.A |</p>
+    </footer>
+
+</body>
+</html>

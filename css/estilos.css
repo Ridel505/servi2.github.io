@@ -1,0 +1,136 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #005cbf;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    max-height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header nav ul li a.active {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* Contenido principal */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #0099ff;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.contact-form h2 {
+    color: #0099ff;
+}
+
+.contact-form p {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.contact-form button[type="reset"] {
+    background-color: #ccc;
+}
+
+/* Información de contacto */
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.contact-info h3 {
+    color: #0099ff;
+    margin-bottom: 10px;
+}
+
+.contact-info p,
+.contact-info a {
+    color: #333;
+    line-height: 1.5;
+}
+
+.contact-info iframe {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #005cbf;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
